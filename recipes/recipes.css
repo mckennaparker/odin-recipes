@@ -16,11 +16,24 @@ body {
     text-align: center;
 }
 
+.header {
+    margin: 1rem auto;
+}
+
 .header-img {
     height: 300px;
     border-radius: 5%;
     border: solid 3px black;
     margin: 1rem auto;
+}
+
+.description {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.description h3 {
+    margin: 0.5rem auto;
 }
 
 .ingredients {
@@ -30,11 +43,28 @@ body {
 
 .ingredients ul {
     padding-left: 0;
-    width: 300px;
-    margin: 10px auto;
+    width: 400px;
+    margin: 0.5rem auto;
     text-align: left;
 }
 
 .ingredients ul li {
     list-style-position: inside;
+    margin-bottom: 0.5rem;
+}
+
+.steps {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.steps ol {
+    padding-left: 0;
+    width: 500px;
+    margin: 0.5rem auto;
+    text-align: left;
+}
+
+.steps ol li {
+    margin-bottom: 0.5rem;
 }
